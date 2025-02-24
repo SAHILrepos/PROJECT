@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charity Organization</title>
+  <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Charity Organization</h1>
+      <nav>
+        <ul>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#donate">Donate</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#volunteer">Volunteer</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="mission" class="section">
+    <div class="container">
+      <h2>Our Mission and Vision</h2>
+      <p>Our mission is to make the world a better place by helping those in need. We envision a world where everyone has access to basic necessities and opportunities for growth.</p>
+    </div>
+  </section>
+
+  <section id="donate" class="section">
+    <div class="container">
+      <h2>Donate Now</h2>
+      <form class="donation-form">
+        <label for="amount">Donation Amount ($):</label>
+        <input type="number" id="amount" name="amount" min="1" placeholder="Enter amount">
+        
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email">
+        
+        <button type="submit">Donate</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="gallery" class="section">
+    <div class="container">
+      <h2>Stories of Impact</h2>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="th.jpeg" alt="Impact Story 1">
+          <p>Helping families in need during the holidays.</p>
+        </div>
+        <div class="gallery-item">
+          <img src="th2.jpeg" alt="Impact Story 2">
+          <p>Providing clean water to remote villages.</p>
+        </div>
+        <div class="gallery-item">
+          <img src="th3.jpeg" alt="Impact Story 3">
+          <p>Building schools for underprivileged children.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="volunteer" class="section">
+    <div class="container">
+      <h2>Volunteer With Us</h2>
+      <form class="volunteer-form">
+        <label for="vname">Full Name:</label>
+        <input type="text" id="vname" name="vname" placeholder="Your name">
+        
+        <label for="vemail">Email:</label>
+        <input type="email" id="vemail" name="vemail" placeholder="Your email">
+        
+        <label for="vphone">Phone:</label>
+        <input type="tel" id="vphone" name="vphone" placeholder="Your phone number">
+        
+        <label for="vmessage">Why do you want to volunteer?</label>
+        <textarea id="vmessage" name="vmessage" placeholder="Your message"></textarea>
+        
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Charity Organization. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
